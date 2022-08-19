@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize-typescript';
-import { MatomoUser } from 'model/matomo/user';
 
+import { MatomoUser } from 'model/matomo/user';
 import { MatomoSequelizeDBConfig } from 'src/database/database.config';
 
 export const sequelizeMatomo = new Sequelize(MatomoSequelizeDBConfig);
